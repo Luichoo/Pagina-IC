@@ -129,6 +129,7 @@ async function predict_animal() {
 			default:
 				break;
 		}
+		
 		//console.log(alist);
 		alist.childNodes[max_val_index].style.backgroundColor = "green";
 		past.push(max_val_index);
