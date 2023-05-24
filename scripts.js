@@ -36,7 +36,8 @@ async function predict_animal() {
 	console.log("Finalización del preprocesamiento de la imagen");
 
 	const model = await tf.loadLayersModel("tensorflowjs-model2/model.json");
-	pred =await model.predict(imageproc);
+	console.log("Finalización de carga del modelo");
+	pred = model.predict(imageproc);
 	pred.print();
 	console.log("Finalización de predicción");
 
