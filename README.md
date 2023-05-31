@@ -1,3 +1,1 @@
-# IC800-Luichoo
-
-luichoo.github.io/Pagina-IC/
+# IC800-Luichoo  
